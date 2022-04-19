@@ -41,7 +41,13 @@ vagrant halt
 vagrant destroy
 ```
 
-## Example Usage
+## EM Browser Usage
+
+```shell
+https://localhost:5500/em/shell
+```
+
+## Command Line Usage
 
 * [The installation RPM notes provide more details](https://docs.oracle.com/en/database/oracle/oracle-database/19/ladbi/running-rpm-packages-to-install-oracle-database.html#GUID-BB7C11E3-D385-4A2F-9EAF-75F4F0AACF02), this script creates a container database (ORCLCDB) with one pluggable database (ORCLPDB1) and configures the listener at the default port (1521).
 
