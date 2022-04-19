@@ -35,27 +35,41 @@ vagrant up
 vagrant halt
 ```
 
+### Destroy Oracle Database on VM
+
+```shell
+vagrant destroy
+```
+
 ## Example Usage
 
-* [The installation RPM notes provide more details](https://docs.oracle.com/en/database/oracle/oracle-database/19/ladbi/running-rpm-packages-to-install-oracle-database.html#GUID-BB7C11E3-D385-4A2F-9EAF-75F4F0AACF02)
+* [The installation RPM notes provide more details](https://docs.oracle.com/en/database/oracle/oracle-database/19/ladbi/running-rpm-packages-to-install-oracle-database.html#GUID-BB7C11E3-D385-4A2F-9EAF-75F4F0AACF02), this script creates a container database (ORCLCDB) with one pluggable database (ORCLPDB1) and configures the listener at the default port (1521).
 
 * The default database connection parameters are:
 
 ```yml
     Hostname: localhost
     Port: 1521
+
     SID: ORCLCDB
     PDB: ORCLPDB1
     EM Express port: 5500
 ```
 
-* Database passwords are auto-generated and printed on install
+* Check the following message at the end of the installation.
 
-* Connection test to the container database
-
-```shell
-./bin/sql system/Vi7PdjdVhXg=1@localhost/ORCLCDB
+```sql
+ORACLE PASSWORD FOR SYS, SYSTEM AND PDBADMIN: MEiHD07VxX0=1
 ```
 
-* This script creates a container database (ORCLCDB) with one pluggable database (ORCLPDB1) and configures the listener at the default port (1521). 
+* Then test connection as DBA to default plugin database that has been created.
 
+```shell
+./bin/sql SYSTEM/MEiHD07VxX0=1@localhost/ORCLPDB1
+```
+
+* Test you can create a user.
+
+```sql
+CREATE USER john IDENTIFIED BY abcd1234;
+```
