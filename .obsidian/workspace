@@ -13,8 +13,7 @@
             "mode": "source",
             "source": false
           }
-        },
-        "group": "f2c77a0cb9c5d111"
+        }
       },
       {
         "id": "dbc22f4c8358f645",
@@ -26,8 +25,7 @@
             "mode": "source",
             "source": false
           }
-        },
-        "group": "f2c77a0cb9c5d111"
+        }
       }
     ],
     "direction": "vertical"
@@ -67,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 426.0107650756836
+    "width": 204.0107650756836
   },
   "right": {
     "id": "9bb708dd6167a785",
@@ -104,8 +102,8 @@
   "active": "ce30ccbf3f772ed7",
   "lastOpenFiles": [
     "README.md",
+    "GRAPH.md",
     "oracle-19c/ORACLE 19c DEVELOPMENT.md",
-    "dev-env-for-oracle-19c/dev-env-for-oracle-19c.md",
-    "Untitled.md"
+    "dev-env-for-oracle-19c/dev-env-for-oracle-19c.md"
   ]
 }

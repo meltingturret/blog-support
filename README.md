@@ -1,4 +1,3 @@
-# blog-support
+# Blog Support Notes
 
-[[ORACLE 19c DEVELOPMENT#Installation]]
-[[ORACLE 19c DEVELOPMENT#Usage]]
+These notes are to support online blogs with more technical information and code. The notes are taken using the [Obsidian markdown editor](https://obsidian.md/).
