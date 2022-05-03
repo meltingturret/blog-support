@@ -1,6 +1,4 @@
-# dev-env-for-oracle-19c
-
-## Install
+# INSTALL
 
 ### Vagrant
 ```shell
@@ -41,13 +39,15 @@ vagrant halt
 vagrant destroy
 ```
 
-## EM Browser Usage
+## Usage
+
+### EM Browser Usage
 
 ```shell
 https://localhost:5500/em/shell
 ```
 
-## Command Line Usage
+### Command Line Usage
 
 * [The installation RPM notes provide more details](https://docs.oracle.com/en/database/oracle/oracle-database/19/ladbi/running-rpm-packages-to-install-oracle-database.html#GUID-BB7C11E3-D385-4A2F-9EAF-75F4F0AACF02), this script creates a container database (ORCLCDB) with one pluggable database (ORCLPDB1) and configures the listener at the default port (1521).
 
@@ -64,7 +64,7 @@ https://localhost:5500/em/shell
 
 * Check the following message at the end of the installation.
 
-```sql
+```shell
 ORACLE PASSWORD FOR SYS, SYSTEM AND PDBADMIN: MEiHD07VxX0=1
 ```
 

@@ -1,0 +1,92 @@
+{
+  "main": {
+    "id": "35eb2fd0766b590d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce30ccbf3f772ed7",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "50a4638d429e4e26",
+    "type": "split",
+    "children": [
+      {
+        "id": "88a72a1c302d1373",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a76f9c8bf48f6340",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "83b583c1e325b33b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 426.0107650756836
+  },
+  "right": {
+    "id": "9bb708dd6167a785",
+    "type": "split",
+    "children": [
+      {
+        "id": "49e1330c7379452c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d441e0d7821d6cb9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ce30ccbf3f772ed7",
+  "lastOpenFiles": [
+    "oracle-19c/ORACLE 19c DEVELOPMENT.md",
+    "BLOG.md",
+    "dev-env-for-oracle-19c/dev-env-for-oracle-19c.md",
+    "Untitled.md"
+  ]
+}
