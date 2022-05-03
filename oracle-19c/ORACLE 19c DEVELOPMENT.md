@@ -1,4 +1,6 @@
-# INSTALL
+# Development Setup
+
+## Installation
 
 ### Vagrant
 ```shell

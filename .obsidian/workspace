@@ -9,11 +9,25 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "oracle-19c/ORACLE 19c DEVELOPMENT.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
-        }
+        },
+        "group": "f2c77a0cb9c5d111"
+      },
+      {
+        "id": "dbc22f4c8358f645",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source",
+            "source": false
+          }
+        },
+        "group": "f2c77a0cb9c5d111"
       }
     ],
     "direction": "vertical"
@@ -69,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "oracle-19c/ORACLE 19c DEVELOPMENT.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +103,8 @@
   },
   "active": "ce30ccbf3f772ed7",
   "lastOpenFiles": [
-    "oracle-19c/ORACLE 19c DEVELOPMENT.md",
     "README.md",
+    "oracle-19c/ORACLE 19c DEVELOPMENT.md",
     "dev-env-for-oracle-19c/dev-env-for-oracle-19c.md",
     "Untitled.md"
   ]
